@@ -124,7 +124,7 @@ private:
 
     uint32 realm{};
     boost::asio::io_service* _ioService;
-    boost::asio::io_service::strand* _strand;
+    boost::asio::strand* _strand;
 };
 
 #define sLog Log::instance()
