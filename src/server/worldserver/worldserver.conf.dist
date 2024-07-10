@@ -2992,3 +2992,799 @@ QuestPOI.DisableErrors = 1
 #
 ###################################################################################################
 
+####################
+# PATCHES SETTINGS #
+####################
+
+###################################################################################################
+# lasyan3 #
+###########
+#
+#     Custom.AutoCompleteQuestDelay
+#         Set it to a number to enable the summon of the quest giver of the quest you just completed.
+#	      The number indicates the duration of the summoning.
+#     Default : 0 (AutoComplete Disable)
+#     Example : 180 (When a quest is completed, the quest giver will be summoned for 3 minutes)
+#
+
+Custom.AutoCompleteQuestDelay = 180
+
+#
+#     Custom.SpeedGame
+#         Set it to a number upper than 1 to speed up realm timer
+#     Default : 1 (Real Time)
+#     Example : 60 to force 1scde (real time) = 1 minute (realm timer)
+#
+
+Custom.SpeedGame = 1
+
+#
+#     Custom.NoCastTime
+#         Set it to 1 to disable cast time
+#     Default : 0 (Cast Time Enable)
+#
+
+Custom.NoCastTime = 0
+
+#
+#     Custom.HurtInRealTime
+#         Set it to 1 to disable autohurt with weapon
+#     Default : 0 (Autohurt Enable)
+#
+
+Custom.HurtInRealTime = 0
+
+#
+#     Custom.AttackSpeedForPlayer
+#     Custom.AttackSpeedForMobs
+#         Set it to a number upper than 1 to speed up the attack of the player or the mobs
+#     Default : 1.0 (Normal speed)
+#     Example : 2.0 (attack speed is 200% faster)
+#     Example : 0.5 (attack speed is 50% slower)
+#
+
+Custom.AttackSpeedForPlayer = 1.0
+Custom.AttackSpeedForMobs = 1.0
+
+#
+#     Custom.RespawnSpeed
+#         Set it to a number upper than 1 to speed up the respawn of mobs (and lower than 1 to slow down).
+#     Default : 1.0 (Normal speed)
+#
+
+Custom.RespawnSpeed = 1.0
+
+#
+###################################################################################################
+
+###################################################################################################
+#
+#     FireWorksOnLevelUp
+#        Description: Players shoot a firework when reach level 110.
+#        Default:     0 (disabled)
+#                     1 (enabled)
+
+FireWorksOnLevelUp = 0
+
+#
+#     Login.BoA
+#        Description: New players get some starting equipment.
+#        Default:     0 (disabled)
+#                     1 (enabled)
+
+Login.BoA = 0
+
+#
+#     StartGuild
+#        Description: New players automatically added for the configurated guild IDs.
+#		 Example: 	  StartGuild.Alliance = 45
+#					  StartGuild.Horde = 46
+#        Default:     0 (disabled)
+
+StartGuild.Alliance = 0
+StartGuild.Horde = 0
+
+#
+#     Reset.on.login
+#        Description: Restore players health, mana and cooldowns when log into the game.
+#        Default:     0 (disabled)
+#                     1 (enabled)
+
+Reset.on.login = 0
+
+#
+#     Duel.Reset.Enable
+#        Description: Restore players health, mana and cooldowns when a duel started and ended.
+#        Default:     0 (disabled)
+#                     1 (enabled)
+
+Duel.Reset.Enable = 0
+
+#
+#     Login.Announcer.Enable
+#        Description: Announce every player and bots login
+#        Default:     0 (disabled)
+#                     1 (enabled)
+
+Login.Announcer.Enable = 0
+
+#
+#     Boss.Announcer.Enable
+#        Description: System announce who killed a world boss in global.
+#        Default:     0 (disabled)
+#                     1 (enabled)
+
+Boss.Announcer.Enable = 0
+
+#
+#    Double XP Weekend
+#        Description: Enables or disables the Double XP Weekend Script
+#
+#    DoubleXP.Enable
+#        Default:     1 (enabled)
+#                     0 (disabled)
+
+DoubleXP.Enable = 0
+
+#
+# Custom.GainHonorOnGuardKill
+# Set it to 1 to gain honor when you kill a guard.
+# Note that not all city guards will give you honor. It seems only capital and big city guards are flagged
+# as so in the database.
+# Default : 0 (No honor when you kill a guard)
+
+Custom.GainHonorOnGuardKill = 0
+
+#
+# Custom.GainHonorOnEliteKill
+# Set it to 1 to gain honor when you kill an elite mob (this does not apply on rare mob, unless he is also elite).
+# Default : 0 (No honor when you kill an elite mob)
+
+Custom.GainHonorOnEliteKill = 0
+
+#
+#     XP for PvP kills
+#         Set the XP and money rate for PvP kills.
+#
+#     Default:  Xp.For.Pvp.Low.Rate = 1
+#               Xp.For.Pvp.High.Rate = 1
+
+Xp.For.Pvp.Low.Rate = 1
+Xp.For.Pvp.High.Rate = 1
+
+#
+#     Time Is Money Friend
+#         Gives money for players who is online after every X minutes.
+#
+#     Default:  TimeIsMoneyFriend.Interval = 600000 (10 minutes)
+#               TimeIsMoneyFriend.Money    = 1000 (10 silver)
+
+TimeIsMoneyFriend.Interval = 0
+TimeIsMoneyFriend.Money    = 0
+
+#
+#    Dungeon Checkpoints
+#        Description: Enable checkpoints in dungeons/instances. 
+#        The server set a respawn point after every world boss you defeated.
+#
+#    Dungeon.Checkpoints.Enable
+#        Default:     1 (enabled)
+#                     0 (disabled)
+
+Dungeon.Checkpoints.Enable = 0
+
+#
+#     Congrats.Level // NOT WORKING ANYMORE, NEW SETTINGS CAN FIND BELOW
+
+Congrats.Level = 0
+
+#
+#    Skip pandaren starting area
+#        Enable this if you want to skip the Wandering Isle (pandaren starting area)
+#        You can choose faction instantly and Pandaren characters leveled up to 5 
+#        and get some starting items.
+#
+#    Skip.Pandaren.Enable
+#        Default:     1 (enabled)
+#                     0 (disabled)
+
+Skip.Pandaren.Enable = 0
+
+#
+#    Skip worgen starting area
+#        Enable this if you want to skip the worgen starting area
+#
+#    Skip.Worgen.Enable
+#        Default:    1 (enabled)
+#                    0 (disabled)
+
+Skip.Worgen.Enable = 0
+
+#
+#    Skip goblin starting area
+#        Enable this if you want to skip the goblin starting area
+#
+#    Skip.Goblin.Enable
+#        Default:    1 (enabled)
+#                    0 (disabled)
+
+Skip.Goblin.Enable = 0
+
+#
+#    Disallow.Multiple.Client
+#        Description: This option disallow to use multiple game from the same network.
+#        Default:    0 (disabled)
+#                    1 (enabled)
+
+Disallow.Multiple.Client = 0
+
+#
+#    Custom.XP.Rate.NPC
+#        Description: This option activate the Custom XP Rate NPCs on the starting areas.
+#        Default:    0 (disabled)
+#                    1 (enabled)
+
+Custom.XP.Rate.NPC = 0
+
+#
+#    Hardcore.Mode.Enable
+#        Description: Classic hardcore mode.
+#                     You can't resurrect with spirit healer and can't return to your corpse.
+#
+#        Default:     0 (disabled)
+#                     1 (enabled)
+
+Hardcore.Mode.Enable = 0
+
+#
+#    Who-logged.console
+#        Description: Shows in the console who logged into the game.
+#        Default:     0 (disabled)
+#                     1 (enabled)
+
+Who-logged.console = 1
+
+#
+#    WorldChat.Enable
+#        Description: Enable to chat worldwide with .world command.
+#        Default:     0 (disabled)
+#                     1 (enabled)
+
+WorldChat.Enable = 1
+
+#
+#    Module.Announcer.Enable
+#        Description: Shows the enabled custom modules on login.
+#        Default:     0 (disabled)
+#                     1 (enabled)
+
+Module.Announcer.Enable = 1
+
+#
+#    CompleteQuest.Command
+#        Description: Allow the ".completequest [LINK]" command for normal players.
+#                     This can helps to complete bugged quests.
+#        Default:     0 (disabled)
+#                     1 (enabled)
+
+CompleteQuest.Command = 1
+
+#
+#     KilledByCreature.Announcer
+#        Description: Announce everyone on the server, if a player killed by a creature.
+#                     This can be usefull with the Hardcode Mode.
+#        Default:     0 (disabled)
+#                     1 (enabled)
+
+KilledByCreature.Announcer = 1
+
+#
+#     PvPKill.Announcer
+#        Description: Announce everyone on the server, if a player killed by another player.
+#                     This can be usefull with the Hardcode Mode.
+#        Default:     0 (disabled)
+#                     1 (enabled)
+
+PvPKill.Announcer = 1
+
+#
+#     LFG.SoloMode
+#        Description: This module allow to use LFG with 1-4 players.
+#                     Possible useful in offline play or on low populated servers.
+#        Default:     0 (disabled)
+#                     1 (enabled)
+
+LFG.SoloMode = 1
+
+#
+#     Feed.Pet.Heal
+#        Description:  Heals your hunter pet when you feed it, similar to the post-cataclysm behavior. 
+#
+#        Default:     0 (disabled)
+#                     1 (enabled)
+
+Feed.Pet.Heal = 1
+
+#
+#     Save.On.LevelUp
+#        Description: Characters instantly saved if reached a new level.
+#
+#     Save.On.LevelUp.Announcer
+#        Description: Notify the players in chat if they characters saved.
+#
+#        Default:     0 (disabled)
+#                     1 (enabled)
+
+Save.On.LevelUp = 1
+Save.On.LevelUp.Announcer = 1
+
+#
+###################################################################################################
+
+###################################################################################################
+#
+# RANDOM ENCHANTS OPTIONS
+#
+#     RandomEnchants.AnnounceOnLogin
+#        Announce a message on login for this module
+#        Default:     1
+
+RandomEnchants.AnnounceOnLogin = 0
+
+#
+#     RandomEnchants.OnLoginMessage
+#        Message to display on login(Only applies if AnnounceOnLogin is enabled)
+#        Default:    "This server is running a RandomEnchants Module."
+
+RandomEnchants.OnLoginMessage="This server is based on Single Player Project - Legion repack."
+
+#
+#     RandomEnchants.OnLoot
+#        Chance at random enchant on looting an item
+#        Default:     1
+
+RandomEnchants.OnLoot = 0
+
+#
+#     RandomEnchants.OnCreate
+#        Chance at random enchant on creating an item via profession
+#        Default:     1
+
+RandomEnchants.OnCreate = 0
+
+#
+#     RandomEnchants.OnQuestReward (Not working yet)
+#        Chance at random enchant on obtaining item from quest reward
+#        Default:     1
+
+RandomEnchants.OnQuestReward = 0
+
+#
+###################################################################################################
+
+###################################################################################################
+# MONEY FOR KILLS #
+###################
+
+# Enable the module? (1: true | 0: false)
+# Default: 1
+
+MFK.Enable = 0
+
+# Announce the module when the player logs in?
+# Default: 1
+
+MFK.Announce = 1
+
+# Only allow the player with the killing blow to claim the bounty?
+# Default: 0 (All players receive the bounty)
+
+MFK.KillingBlowOnly = 0
+
+# Award bounty to party members far away from the group?
+# Default: 0 (Only award players near the group)
+
+MFK.MoneyForNothing = 0
+
+# How much gold does a Player take from the victim's corpse on a PVP kill?
+# Default: 5 (5% of the victim's gold)
+
+MFK.PVP.CorpseLootPercent = 5
+
+# Creature kills are expressed in Copper and calculated as ((CreatureLevel * Multiplier) / 3)
+# Player kills are expressed in Copper and calculated as ((PlayerLevel * Multiplier) / 3)
+# Boss kills are expressed in Copper and calculated as ((CreatureLevel * Multiplier) * 100)
+
+# Loot Examples:
+# Level 80 MOB Multiplier = 100: (8000 / 3) = 2666 = 26 Silver 66 copper
+# Level 80 PVP Multiplier = 200: (16000 / 3) = 5333 = 53 Silver, 33 copper
+# Level 80 DBoss Multiplier = 25: ((8000 * 100) * 25) = 200,000 copper = 20 gold
+# Level 80 WBoss Multiplier = 200: ((16000 * 200) * 100)  = 1,600,000 copper = 160 gold
+
+# NOTE: There are many dungeon bosses per dungeon, so set accordingly! 
+# NOTE: A value of 0 will disable the payment type
+
+MFK.Kill.Multiplier = 100
+MFK.PVP.Multiplier = 200
+MFK.DungeonBoss.Multiplier = 25
+MFK.WorldBoss.Multiplier = 200
+
+#
+###################################################################################################
+
+###################################################################################################
+# SOLOCRAFT #
+#############
+#
+#     Solocraft.Enable
+#        Description: Solocraft trying to keep the balance in dungeons and raids, 
+#		 based on group size. It feels a little hacky, but good for low populated servers.
+#        Default:     0 (disabled)
+#                     1 (enabled)
+
+Solocraft.Enable = 1
+
+# Announce the module when the player logs in?
+
+Solocraft.Announce = 1
+
+# Difficulty Multipliers
+# Defaults: 5, 10, 15, 10, 25, 30, 40
+
+Solocraft.Dungeon = 5
+Solocraft.Heroic = 10
+Solocraft.Mythic = 15
+Solocraft.Raid10 = 10
+Solocraft.Raid25 = 25
+Solocraft.Raid30 = 30
+Solocraft.Raid40 = 40
+
+#
+###################################################################################################
+
+###################################################################################################
+# IMMORTAL MODE #
+#################
+#
+#    ImmortalMode
+#        Description: Players cannot be killed by a mobs or in PVP, but can take damage
+#
+#        Value:       1 (Enable)
+#                     0 (Disable)
+
+ImmortalMode.PVE.Enable = 0
+ImmortalMode.PVP.Enable = 0
+
+#
+#    ImmortalMode.Zone
+#        Description: Players can't be killed in a certain zone.
+#
+#        Value:       0  (all zones)
+#                     1+ (specified zone)
+
+ImmortalMode.PVE.ZoneID = 0
+ImmortalMode.PVE.ZoneID = 0
+
+#
+###################################################################################################
+
+###################################################################################################
+# CONGRATS ON LEVEL-UP #
+########################
+
+# Enable the module? (1: true | 0: false)
+
+Congrats.On.Level.Enable = 0
+
+# Announce the module when the player logs in?
+
+Congrats.On.Level.Announce = 1
+
+# Set what the player receives at each level
+# M: Gold 
+# S: SpellID to be cast on the player
+# 1: First ItemID to be given to the player
+# 2: Second ItemID to be given to the player
+
+# Level 10
+# 1 Gold / Blessing of Kings
+# Red Rose / TCG: Foam Sword Rack
+Congrats.L10M = 1;
+Congrats.L10S = 20217
+Congrats.L101 = 3419
+Congrats.L102 = 45062
+
+# Level 20
+# 10 Gold / Power Word Fortitude
+# Rag Doll / TCG: Flag of Ownership
+Congrats.L20M = 10
+Congrats.L20S = 48161
+Congrats.L201 = 5433
+Congrats.L202 = 38578
+
+# Level 30
+# 15 Gold / Mark of the Wild
+# Sleeveless T-Shirt / TCG: Ogre Pinata 
+Congrats.L30M = 15
+Congrats.L30S = 48469
+Congrats.L301 = 18231
+Congrats.L302 = 46780
+
+# Level 40
+# 20 Gold / Blessing of Kings
+# Shadow Circuit / TCG: Carved Ogre Idol 
+Congrats.L40M = 20
+Congrats.L40S = 20217
+Congrats.L401 = 31945
+Congrats.L402 = 49704
+
+# Level 50
+# 25 Gold / Power Word Fortutude
+# Blood of the Mountain / TCG: Imp in a Ball
+Congrats.L50M = 25
+Congrats.L50S = 48161
+Congrats.L501 = 11382
+Congrats.L502 = 32542
+
+# Level 60
+# 30 Gold / Mark of the Wild
+# Direbrew's Remote / TCG: Goblin Gumbo Kettle
+Congrats.L60M = 30
+Congrats.L60S = 48469
+Congrats.L601 = 37863
+Congrats.L602 = 33219
+
+# Level 70
+# 35 Gold / Power Word Fortitude
+# Cuergo's Gold / TCG: Instant Statue Pedestal
+Congrats.L70M = 35
+Congrats.L70S = 48161
+Congrats.L701 = 9360
+Congrats.L702 = 54212
+
+# Level 80
+# 100 Gold / Blessing of Kings
+# Cuergo's Gold with Worm / Haunted Momento
+Congrats.L80M = 100
+Congrats.L80S = 20217
+Congrats.L801 = 9361
+Congrats.L802 = 40110
+
+# Level 90
+# Money, SpellBuff, Item1, Item2
+Congrats.L90M = 0
+Congrats.L90S = 0
+Congrats.L901 = 0
+Congrats.L902 = 0
+
+# Level 100
+# Money, SpellBuff, Item1, Item2
+Congrats.L100M = 0
+Congrats.L100S = 0
+Congrats.L1001 = 0
+Congrats.L1002 = 0
+
+# Level 110
+# Money, SpellBuff, Item1, Item2
+Congrats.L110M = 0
+Congrats.L110S = 0
+Congrats.L1101 = 0
+Congrats.L1102 = 0
+
+#
+###################################################################################################
+
+###################################################################################################
+# MODIFIER ONLINE CHARACTERS
+#
+#    ModifierOnlineCharacters.Enable
+#        Set Modifier Online Characters status.
+#        Default: 1 - Enable
+#                 0 - Disable
+
+ModifierOnlineCharacters.Enable = 1
+
+#    ModifierOnlineCharacters.MinTimer
+#        Set min interval between sending characters
+#        Default: 60 (1 hours)
+
+ModifierOnlineCharacters.MinTimer = 60
+
+#    ModifierOnlineCharacters.MaxTimer
+#        Set min interval between sending characters
+#        Default: 180 (3 hours)
+
+ModifierOnlineCharacters.MaxTimer = 180
+
+#    ModifierOnlineCharacters.MinMoney
+#        Set the min amount of money to add to the online players.(coper)
+#        Will be sent with the calculation: (ModifierOnlineCharacters.MinMoney * Character Level) / 10
+#
+#        Default: 100
+
+ModifierOnlineCharacters.MinMoney = 100
+
+#    ModifierOnlineCharacters.MaxMoney
+#        Set the max amount of money to add to the online players.(coper)
+#        Will be sent with the calculation: (ModifierOnlineCharacters.MaxMoney * Character Level) / 10
+#
+#        Default: 200
+
+ModifierOnlineCharacters.MaxMoney = 200
+
+#
+###################################################################################################
+
+###################################################################################################
+#
+# Detailed Logging Stat Configurations 
+# 
+# enabled:  This enables individual parts of the logging system
+# dumpSize:  How many lines of information are cached before being written to the log file.
+#            For smaller servers this can be left as a low number, but for larger servers this
+#            could cause slowdown due to constant disk writes.
+#
+
+KillDetailedLogging.enabled=true;
+KillDetailedLogging.dumpSize=10;
+
+DeathDetailedLogging.enabled=true;
+DeathetailedLogging.dumpSize=10;
+
+ZoneAreaDetailedLogging.enabled=true;
+ZoneAreaDetailedLogging.dumpSize=10;
+
+#
+###################################################################################################
+
+###################################################################################################
+# PVP/PLAYER INVENTORY LOOT #
+#############################
+#
+#    PvPChest
+#        Description: Enable or Disable this feature for the players to drop loot.
+#        Default:     Enabled  = 1
+#                     Disabled = 0
+
+PvPChest = 0
+
+#
+#    ChestID
+#        Description: allows the player to spawn the chest of their choice
+#        Default:     Enabled  = 179697
+#                    
+
+ChestID = "80000"
+
+#
+#    KillAnnounce
+#        Description: Announces to the player who killed them.
+#        Config:     Disable = "0" : Announce  = "1" : Notifaction = "2" : Both = "3"
+#                    
+
+KillAnnounce = "1"
+
+#
+#    ChestTimer
+#        Description: The ammount of time the chest is in world before despawn (In Seconds)
+#        Config: Default = 120
+#                    
+
+ChestTimer = "120"
+
+#
+#    spawnchestIP
+#        Description: Allow the chest to spawn if player is on the same IP address
+#        Config:     Disable = "0"
+#					 Enable = "1" do not spawn chest if same IP
+#                    
+
+spawnchestIP = "1"
+
+#
+###################################################################################################
+
+###################################################################################################
+#
+# VAS AUTOBALANCE OPTIONS
+#
+#     VASAutoBalance.numPlayer
+#        Set Server to level of solo mode.
+#        Set to 0 to Disable VAS-SOLO Mod.
+#        Example: VAS.AutoBalance.XPlayer = 1 will set everything for a 1 player game.
+#        Default:     1
+
+VASAutoBalance.numPlayer = 1
+
+#
+#     VASAutoBalance.Instances
+#        Set instances to Auto chance XPlayer depending on players in it.
+#        Default:     1 (1 = ON, 0 = OFF)
+
+VASAutoBalance.Instances = 0
+
+#
+#     VASAutoBalance.DungeonsOnly
+#        Only apply scaling changes to dungeons
+#        Default:     1 (1 = ON, 0 = OFF)
+
+VASAutoBalance.DungeonsOnly = 1
+
+#
+#     VASAutoBalance.DebugLevel
+#        0 = None
+#        1 = Errors Only
+#        2 = Errors and Basic Information
+#        3 = All VAS Info
+#        Default:     2
+
+VASAutoBalance.DebugLevel=2
+
+#
+#     VAS.AutoBalance.PlayerChangeNotify
+#        Set Auto Notifications to all players in Instance that player count has changed.
+#        Default:     1 (1 = ON, 0 = OFF)
+
+VASAutoBalance.PlayerChangeNotify = 1
+
+#
+#     VASAutoBalance.MinHPModifier
+#        Minimum Modifier setting for Health Modification
+#        Default:     0.10
+
+VASAutoBalance.MinHPModifier=0.10
+
+#
+#     VASAutoBalance.MinDamageModifier
+#        Minimum Modifier setting for Damage Modification
+#        Default:     0.10
+
+VASAutoBalance.MinDamageModifier=0.10
+
+#
+#     VASAutoBalance.ForcedIDXX
+#        Sets MobIDs for the group they belong to.
+#        All 5 Man Mobs should go in VAS.AutoBalance.5.Name
+#        All 10 Man Mobs should go in VAS.AutoBalance.10.Name etc.
+
+VASAutoBalance.ForcedID40="11583,16441,30057,13020,15589,14435,18192,14889,14888,14887,14890,15302,15818,15742,15741,15740,18338"
+VASAutoBalance.ForcedID25="22997,21966,21965,21964,21806,21215,21845,19728,12397,17711,18256,18192,"
+VASAutoBalance.ForcedID20=""
+VASAutoBalance.ForcedID10="15689,15550,16152,17521,17225,16028,29324,31099"
+VASAutoBalance.ForcedID5="8317,15203,15204,15205,15305,6109,26801,30508,26799,30495,26803,30497,27859,27249"
+VASAutoBalance.ForcedID2="25549,24558,25574,24559,25556,25557,25578,24561,25555,24555,25541,24553,25550,24554,24552,25564,15931,29373"
+
+#
+###################################################################################################
+
+###################################################################################################
+# Dynamic XP Rate #
+###################
+#
+#    Dynamic.XP.Rate
+#        Description: You can setup the personal XP rate for different level ranges.
+#
+#        Dynamic.XP.Rate: 1 (Enable)
+#                         0 (Disable)
+#
+#        Dynamic.XP.Rate.X-X: 1+ (Set a custom XP rate on that level range)
+#                             0  (Reset custom XP rate to default on that level range)
+#
+
+Dynamic.XP.Rate = 0
+
+Dynamic.XP.Rate.1-9 = 1
+Dynamic.XP.Rate.10-19 = 2
+Dynamic.XP.Rate.20-29 = 3
+Dynamic.XP.Rate.30-39 = 4
+Dynamic.XP.Rate.40-49 = 5
+Dynamic.XP.Rate.50-59 = 6
+Dynamic.XP.Rate.60-69 = 7
+Dynamic.XP.Rate.70-79 = 8
+Dynamic.XP.Rate.80-89 = 9
+Dynamic.XP.Rate.90-99 = 10
+Dynamic.XP.Rate.100-109 = 11
+Dynamic.XP.Rate.110 = 1
+
+#
+###################################################################################################
